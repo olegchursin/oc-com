@@ -1,7 +1,7 @@
 [[headers]]
   for = "/*"
   [headers.values]
-    Content-Security-Policy = "default-src 'self' 'unsafe-inline'"
+    Content-Security-Policy = "default-src 'self' 'unsafe-inline' style-src-elem 'https://fonts.googleapis.com/css?family=OpenSans:300|Montserrat'"
     X-Frame-Options = "DENY"
     X-Content-Type-Options = "nosniff"
     Referrer-Policy = "no-referrer"
