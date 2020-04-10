@@ -2,7 +2,7 @@
   for = "/*"
   [headers.values]
     Content-Security-Policy = "default-src 'self'"
-    X-Frame-Options = "DENY
-    X-Content-Type-Options = "nosniff
-    Referrer-Policy = "no-referrer
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "no-referrer"
     Feature-Policy = "microphone 'none'; geolocation 'none'"
